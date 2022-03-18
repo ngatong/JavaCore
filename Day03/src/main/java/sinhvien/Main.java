@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         SinhVien sv1 = new SinhVien(1, "Tống Thị Nga", 9, 10);
-        SinhVien sv2 = new SinhVien(2, "Bùi Thị Bích Phương", 8, 9);
+        SinhVien sv2 = new SinhVien(2, "Bùi Bích Phương", 8, 9);
         SinhVien sv3 = new SinhVien();
         System.out.print("Nhập mã của SV3: ");
         sv3.setMaSinhVien(input.nextInt());
@@ -23,6 +23,6 @@ public class Main {
         System.out.printf("%6s %10s %20s %10s %10s \n", "MSV", "Họ tên", "Điểm lý thuyết", "Điểm thực hành", "Điểm trung bình");
         sv1.print();
         sv2.print();
-        // sv3.print();
+        sv3.print();
     }
 }
