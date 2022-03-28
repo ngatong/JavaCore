@@ -1,8 +1,8 @@
 package shape;
 
 public class Rectangle extends Shape {
-    protected double width=1.0;
-    protected double length=1.0;
+    protected double width = 1.0;
+    protected double length = 1.0;
 
     public Rectangle() {
     }
@@ -40,14 +40,15 @@ public class Rectangle extends Shape {
 
     @Override
     public double getArea() {
-        return getWidth()*getLength();
+        return getWidth() * getLength();
     }
 
     @Override
     public double getPerimeter() {
-        return 2*(getLength()+getWidth());
+        return 2 * (getLength() + getWidth());
     }
-    public String toString(){
-       return super.toString()+" "+getWidth()+" "+getLength();
+
+    public String toString() {
+        return super.toString() + " " + getWidth() + " " + getLength();
     }
 }

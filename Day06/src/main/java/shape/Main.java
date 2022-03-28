@@ -7,6 +7,6 @@ public class Main {
         Square square=new Square(5);
         System.out.println("Hình tròn: "+cricle.toString() + " có diện tích là " + cricle.getArea() + " và chu vi là " + cricle.getPerimeter());
         System.out.println("Hình chữ nhật "+rectangle.toString()+" có diện tích là "+rectangle.getArea()+" và chu vi là "+rectangle.getPerimeter());
-        System.out.println("Hình vuông "+square.toString() +square.getArea()+ square.getPerimeter());
+        System.out.println("Hình vuông "+square.toString()+" có diện tích là " +square.getArea()+" có chu vi là "+ square.getPerimeter());
     }
 }
